@@ -19,3 +19,7 @@ git checkout v1.0.0       # 切到 tag
 git checkout origin/main  # 切到远程跟踪分支
 git switch --detach main  # 显式分离”
     2.9 
+3.  worktree
+  3.1 定义：本质上还是创建一个分支 不过是这个分支需要把main上的代码复制一份到自己目录下 不像之前的branch 通过指针来进行控制的
+  3.2 在codex里叫创建永久工作树 ，这意味着会创建自己的目录 目录里会有完整的项目的代码 做任何操作都不会影响到main文件夹，所以main可以和工作树进行同步开发。
+  3.3  
